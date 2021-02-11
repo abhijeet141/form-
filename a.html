@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+      <meta charset="UTF-8">
+      <title>Form filling</title>
+</head>
+<body>
+      <form action="#" on submit="return(validate());">
+            <table cellpadding="8" width="35%"  align="center">
+            <tr>
+            <td colspan=5><center><font size=6><b><u>Student Registration Form</u></b></font></center>
+            </td>
+            </tr>
+
+            <tr>
+            <td>Name:</td>
+            <td><input type="text" name=textnames id="textname" size="30"></td>
+            </tr>
+
+            <tr>
+            <td>Father Name:</td>
+            <td><input type="text" name="fathername" id="fathername"size="30"></td>
+            </tr>
+
+            <tr>
+            <td>Residential Address:</td>
+            <td><textarea name="Address" id="Address" cols="30" rows="10"></textarea></td>
+            </tr>
+
+            <tr>
+            <td>Gender:</td>
+            <td><input type="radio" name="sex" value="male" size="10">Male
+            <input type="radio" name="sex" value="Female" size="10">Female<input type="radio" name="sex" value="Female" size="10">Custom</td>
+            </tr>
+
+            <tr>
+            <td>City:</td>
+            <td><select name="city">
+            <option>
+            <option value=1>New Delhi
+            <option value=1>Mumbai
+            <option value=1>Gorakhpur
+            <option value=1>Kanpur
+            <option value=1>Patna
+            <option value=1>Bangalore
+            <option value=1>Baroda
+            <option value=1>Surat
+            <option value=1>Lucknow
+            <option value=1>Allahabad
+            <option value=1>Chennai
+            <option value=1>Jalandhar
+            </option>
+            </td>
+            </tr>
+
+            <tr>
+            <td>State:</td>
+            <td><select Name="State">
+            <option>
+            <option value=1>Gujarat
+            <option value=1>Punjab
+            <option value=1>Uttar Pradesh
+            <option value=1>Bihar
+            <option value=1>Tamil nadu
+            <option value=1>Delhi
+            <option value=1>Maharashtra
+            <option value=1>Karnataka
+            </option>
+            </td>
+            </tr>
+
+            <tr>
+            <td>Course:</td>
+            <td><select name="Course">
+            <option>
+            <option value=1>B.TECH
+            <option value=1>M.TECH
+            <option value=1>LLB
+            <option value=1>LLM
+            <option value=1>BCA
+            <option value=1>MCA
+            <option value=1>BA
+            <option value=1>MA
+            <option value=1>BSC
+            <option value=1>MSC
+            </option>
+            </td>
+            </tr>
+
+
+            <td>Email-Id:</td>
+            <td><input type="text" name="email-id" id="email-id" size="10">@</input>
+                  <select name="option">
+                 <option value="gmail">gmail</option>
+                 <option value="outlook">outlook</option>
+                 <option value="hotmail">hotmail</option>
+            </select>.com
+           </td>
+
+            <tr>
+            <td>DOB:</td>
+            <td><input type="date" name="dob" id="dob" size="30"></td>
+            </tr>
+
+            <tr>
+            <td>MobileNo:</td>
+            <td><input type="text" name="mobileno" id="mobileno" size="30"></td>
+            </tr>
+
+            <tr>
+            <td>PinCode:</td>
+            <td><input type="text" name="pincode" id="pincode" size="30"></td>
+            </tr>
+
+            <tr>
+            <td><input type="reset"></td>
+            <td colspan="2"><input type="submit" value="Submit Form" /></td>
+            </tr>
+            </table>
+      </form>
+</body>
+</html>
